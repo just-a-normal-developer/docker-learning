@@ -1,7 +1,5 @@
-from django.shortcuts import render
 from django.http import HttpResponse
 
-# Create your views here.
 
 def main_page(request):
-    return HttpResponse('hello world')
+    return HttpResponse("congrats your container is working successfully")
